@@ -1,11 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+import './style.css';
 
 const Footer = () => {
     return (
-        <div>
-            <h1>Footer Painel</h1>
-        </div>
-    )
-};
+        <footer className="rodape">
+            <div className="rodape-container">
+                <nav className="rodape-links">
+                    <Link className="rodape-link" to="/">Suporte</Link>
+                    <Link className="rodape-link" to="/">Manual</Link>
+                </nav>
+            </div>
+        </footer>
+    );
+}
 
 export default Footer;
