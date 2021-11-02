@@ -1,3 +1,5 @@
+/* ================== HEADER ================== */
+
 .topo {
     background-color:#173f28;
     border-bottom: 1px solid #fff;
@@ -49,4 +51,62 @@
     .topo-nome-empresa {
         display: none;
     }
+}
+
+
+
+
+
+/* ================== FOOTER ================== */
+
+.footer {
+    background-color:#93b5a2;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-container {
+    padding: 5px 0;
+}
+
+.footer-horario {
+    padding: 10px 0;
+}
+
+h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-sessao {
+    padding: 20px 0;
+}
+
+.icon-whatsapp, .icon-localizacao {
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.lista-horarios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.lista-horarios li {
+    list-style: none;
+    max-width: 300px;
+    padding: 5px 20px;
+}
+
+.link-email {
+    padding: 10px 0;
 }
